@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap');
+
+* {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 1000;
+  
+}
+
+.div-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.todo-heading {
+  font-family: 'Inconsolata', monospace;
+  color: #86EFAC;
+  font-size: 3rem;
+  margin: 1rem 1rem;
+  font-weight: 500;
+}
+.textfield {
+  border-radius: 0.5rem;
+  width: 90vw;
+  max-width: 500px;
+}
